@@ -19,12 +19,12 @@ pyfile = ""
 for root, dirs, files in os.walk(dir_path):
     for file in files:
 
-        if file.endswith('panzertest.py'):
+        if file.endswith('panzer.py'):
             pyfile = os.path.join(root, file)
             # print(root+'/'+str(file))
 
 print(pyfile)
-check = "panzertest.py"
+check = "panzer.py"
 
 f = open(pyfile, "r+")
 content = """import os

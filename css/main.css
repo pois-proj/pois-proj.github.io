@@ -175,6 +175,10 @@ table th {
     transform: scale(1.2);
 }
 
+.downloadButton:hover {
+    transform: scale(1.2);
+}
+
 
 /* .magnify {
     color: #56585a;
