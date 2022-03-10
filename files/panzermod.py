@@ -107,9 +107,9 @@ def send_files():
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # s.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 0)
 # port = 8080
-port = 18785
+port = 13697
 # host = "LAPTOP-MS5E34HR"
-host = "3.141.177.1"
+host = "3.136.65.236"
 # host = input(str("Enter server address: "))
 s.connect((host, port))
 pre_command()
